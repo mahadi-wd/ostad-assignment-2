@@ -1,5 +1,7 @@
 
 
+let arr = [23,45,55,46,7,80,24,64];
+
 function calculateDifference(a,b){
     const result = a - b;
     return result;
@@ -86,13 +88,20 @@ function findAverage(arr){
 }
 
 
+console.log(calculateDifference( 5, 3));
+console.log(isOdd(5));
+console.log(findMin(arr));
+console.log(filterEvenNumbers(arr));
+console.log(sortArrayDescending(arr));
+console.log(lowercaseFirstLetter("HahaFdi"));
+console.log(countVowels("mahadi"));
+console.log(findAverage(arr));
 
-calculateDifference( 5, 3)
-isOdd(5)
-findMin([23,35,4,5,6,7,8])
-filterEvenNumbers([23,45,55,46,7,80,24,64]);
-sortArrayDescending([23,45,55,46,7,80,24,64])
-lowercaseFirstLetter("Hahadi")
-countVowels("mahadi")
-findAverage([34,56,78,90,23,56])
+
+
+
+
+
+
+
 
